@@ -1,4 +1,4 @@
-# AIS  Heroku
+# AIS GitHub Actions
 
 Este proyecto consta de un servidor REST sencillo para la gestión de items.
 
@@ -17,13 +17,3 @@ Para lanzar la aplicación el local:
 ```
     java -jar target/items-0.0.1-SNAPSHOT.jar 
 ```
-
-## Lanzar la aplicación en Heroku
-
-```
-    heroku login
-    heroku container:login
-    heroku container:push web -a ais-heroku
-    heroku container:release web
-```
-
